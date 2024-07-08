@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {   int pocketmoney = 3000;
     for(int date = 1; date<=30; date++){
-        if (date%2 == 0)
+        if (date%2 == 0) 
         {
         // Remember Used for skip any perticular secnerio not or continue when it's true
             continue;
@@ -22,3 +22,4 @@ int main()
     }
     return 0;
 }
+
